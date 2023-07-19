@@ -1,1 +1,15 @@
-{}
+{
+    "generate heading": {
+        "prefix": "!kheading",
+        "body": [
+            "<!--",
+            "title: $1",
+            "description: $2",
+            "-->",
+            "<div>",
+            "   <h1>$1</h1>",
+            "   <p>$2</p>",
+            "</div>"
+        ]
+    }
+}
